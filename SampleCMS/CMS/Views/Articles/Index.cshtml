@@ -3,10 +3,12 @@
 @{
     ViewBag.Title = "Articles";
 }
-
+<h2>Articles</h2>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
+
 <table class="table">
     <tr>
         <th>
@@ -24,7 +26,7 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Body)
+                @Html.Raw(item.Body)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

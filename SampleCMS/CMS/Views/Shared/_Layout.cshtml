@@ -6,6 +6,8 @@
     <title>CMS</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -18,10 +20,9 @@
                 </button>
                 @Html.ActionLink("CMS", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
 
-           </div>
+            </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Articles", "Index", "Articles")</li>
 
                 </ul>
@@ -29,12 +30,11 @@
         </div>
     </div>
     <div class="container body-content">
+        @Html.Partial("_StatusMessages")
         @RenderBody()
 
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
 </body>
 </html>

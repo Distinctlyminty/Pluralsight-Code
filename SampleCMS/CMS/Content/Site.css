@@ -20,5 +20,9 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width:500px;
+}
+
+.multi-line{
+    min-height:500px;
 }

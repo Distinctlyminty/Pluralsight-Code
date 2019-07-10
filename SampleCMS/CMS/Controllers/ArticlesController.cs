@@ -4,15 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using CMS.Helpers;
+using CMS.Services;
 using CMS.ViewModels;
 
 namespace CMS.Controllers
 {
     public class ArticlesController : Controller
     {
+        ArticleService _articleService;
         public ArticlesController()
         {
-
+            _articleService = new ArticleService();
         }
         public ActionResult Index()
         {
@@ -25,6 +27,27 @@ namespace CMS.Controllers
             return View(new ArticleViewModel());
         }
 
+        [HttpPost]
+        [ValidateInput(false)]
+        public ActionResult Create(ArticleViewModel model)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return View(model).WithWarning("Error", "Please correct the errors and try again");
+                }
+                MockDataStoreHelper.Add(model);
+            }
+            catch (Exception)
+            {
+                return View(model).WithWarning("Error", "Unable to save record");
+            }
+
+
+            return RedirectToAction("Index").WithSuccess("Completed", "Record Saved");
+        }
+
         [HttpGet]
         public ActionResult Edit(int id)
         {
@@ -32,21 +55,51 @@ namespace CMS.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Edit(ArticleViewModel model)
-        {//TODO: FINISH THIS
-            return View();
-            //return View(MockDataStoreHelper.Get(id));
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return View(model).WithWarning("Error", "Please correct the errors and try again");
+                }
+                MockDataStoreHelper.Update(model);
+            }
+            catch (Exception)
+            {
+                return View(model).WithWarning("Error", "Unable to update record");
+            }
+
+
+            return RedirectToAction("Index").WithSuccess("Completed", "Record Updated");
+
+
         }
 
         public ActionResult Details(int id)
         {
-            return View(MockDataStoreHelper.Get(id));
+            // this is going to show article stats
+            var detailsViewModel = GetDetailsViewModel(id);
+            return View(detailsViewModel);
+        }
+
+        private DetailsViewModel GetDetailsViewModel(int id)
+        {
+            DetailsViewModel model = new DetailsViewModel();
+            var article = MockDataStoreHelper.Get(id);
+
+            var info = _articleService.GetArticleInfo(article);
+            model.Article = article;
+            model.Info = info;
+            return model;
+
         }
 
         public ActionResult Delete(int id)
         {
             MockDataStoreHelper.Delete(id);
-            return RedirectToAction("index");
+            return RedirectToAction("index").WithSuccess("Deleted", "Record deleted");
         }
 
         private IndexViewModel GetIndexViewModel()

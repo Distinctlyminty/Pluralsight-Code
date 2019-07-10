@@ -1,0 +1,19 @@
+﻿@model  string
+
+@{var fieldName = ViewData.TemplateInfo.HtmlFieldPrefix; }
+
+
+<script>
+    $(document).ready(function(){
+        CKEDITOR.replace('@fieldName',{
+        uiColour: '#9AB8F3',
+        height: '550px',
+        allowedContent: true,
+        fullPage: true
+        });
+    })
+</script>
+
+<textarea id="@fieldName" name="@fieldName">
+@Html.Raw(Model)
+</textarea>

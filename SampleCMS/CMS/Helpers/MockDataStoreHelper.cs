@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 using CMS.ViewModels;
 
@@ -39,6 +40,18 @@ namespace CMS.Helpers
             }
         }
 
+        public static void Update(ArticleViewModel article)
+        {
+            var temp = _articles.ToDictionary(x => x.Id);
+
+            ArticleViewModel toUpdate;
+            if (temp.TryGetValue(article.Id, out toUpdate))
+            {
+                toUpdate.Title = article.Title;
+                toUpdate.Body = article.Body;
+            }
+        }
+
         private static void Seed()
         {
             // seed initial test data
@@ -47,7 +60,7 @@ namespace CMS.Helpers
             {
                 Id = 1,
                 Title = "Big Corp announces annual profits",
-                Body = "London - 25th October \n Big Corp announces annual profits."
+Body = "<html><head><title></title></head><body><p>Important dates for your diary</p><p>Globo Corp Live - UK</p><ul><li>London - 25th January - Earls Court</li><li>Birmingham - 18th March - NEC</li><li>Glasgow - 12th April - SEC</li></ul></body></html>"
             });
             _articles.Add(new ArticleViewModel()
             {
