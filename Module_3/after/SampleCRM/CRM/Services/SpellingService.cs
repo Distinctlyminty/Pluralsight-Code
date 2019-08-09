@@ -8,7 +8,7 @@ namespace CRM.Services
     {
         private string London = "Lat: 51.507; Long: 0.127; re:1000;";
 
-        private string Key = "86463f82092a4859a2c5250b6f1e36d0";
+        private string Key = "d334faeb8dd945bc83b60e77f7e4518d";
 
         public async Task<string> CheckSpellingAsync(ArticleViewModel model)
         {
