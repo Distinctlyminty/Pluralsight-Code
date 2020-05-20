@@ -1,0 +1,1284 @@
+{
+  "protocol_version" : "0.0.4",
+  "configuration" : {
+    "version" : "(5.18.1.28) (2018-08/223ea7ef92e)",
+    "tlc" : "normal",
+    "sigsgev" : "altstack",
+    "notifications" : "kqueue",
+    "architecture" : "amd64",
+    "disabled_features" : "none",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "0",
+    "suspend" : "preemptive"
+  },
+  "memory" : {
+    "Resident Size" : "92815360",
+    "Virtual Size" : "4583763968",
+    "minor_gc_time" : "63030",
+    "major_gc_time" : "0",
+    "minor_gc_count" : "1",
+    "major_gc_count" : "0",
+    "major_gc_time_concurrent" : "0"
+ },
+  "threads" : [
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x70000843f000",
+    "thread_info_addr" : "0x7fad22815600",
+    "thread_name" : "Finalizer",
+    "ctx" : {
+      "IP" : "0x7fff731e7266",
+      "SP" : "0x70000843eda8",
+      "BP" : "0x70000843ee50"
+  },
+    "unmanaged_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x1097f05c0",
+    "thread_info_addr" : "0x7fad2380ee00",
+    "thread_name" : "tid_307",
+    "ctx" : {
+      "IP" : "0x7fff731ea86a",
+      "SP" : "0x7ffee6b38b28",
+      "BP" : "0x7ffee6b38bb0"
+  },
+    "unmanaged_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x700009760000",
+    "thread_info_addr" : "0x7fad25817600",
+    "thread_name" : "Domain unloader",
+    "ctx" : {
+      "IP" : "0x7fff731ea86a",
+      "SP" : "0x70000975f558",
+      "BP" : "0x70000975f5e0"
+  },
+    "unmanaged_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "native_address" : "unregistered"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : true,
+    "offset_free_hash" : "0x55e58dc7b",
+    "offset_rich_hash" : "0x55e58dd83",
+    "crashed" : true,
+    "native_thread_id" : "0x70000955d000",
+    "thread_info_addr" : "0x7fad22076600",
+    "thread_name" : "tid_3503",
+    "ctx" : {
+      "IP" : "0x7fff731ed2c6",
+      "SP" : "0x7000095556a8",
+      "BP" : "0x7000095556e0"
+  },
+    "managed_frames" : [
+  {
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "118907F5-EB5F-4E53-8F3E-3BDD8361378F",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "System.dll",
+      "sizeofimage" : "0x286000",
+      "timestamp" : "0xa6b506f2",
+      "il_offset" : "0xffffffff"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "118907F5-EB5F-4E53-8F3E-3BDD8361378F",
+      "token" : "0x60043f1",
+      "native_offset" : "0x0",
+      "filename" : "System.dll",
+      "sizeofimage" : "0x286000",
+      "timestamp" : "0xa6b506f2",
+      "il_offset" : "0x0003a"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+      "token" : "0x60033c4",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x45e000",
+      "timestamp" : "0xc89ebd33",
+      "il_offset" : "0x00025"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+      "token" : "0x6003358",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x45e000",
+      "timestamp" : "0xc89ebd33",
+      "il_offset" : "0x00071"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+      "token" : "0x6003357",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x45e000",
+      "timestamp" : "0xc89ebd33",
+      "il_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+      "token" : "0x6003356",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x45e000",
+      "timestamp" : "0xc89ebd33",
+      "il_offset" : "0x0002b"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+      "token" : "0x60033c5",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x45e000",
+      "timestamp" : "0xc89ebd33",
+      "il_offset" : "0x0000f"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x45e000",
+      "timestamp" : "0xc89ebd33",
+      "il_offset" : "0xffffffff"
+   }
+
+  ],
+  "unmanaged_frames" : [
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "native_address" : "unregistered"
+  }
+
+ ]
+},
+{
+  "is_managed" : true,
+  "offset_free_hash" : "0x1611c7d52",
+  "offset_rich_hash" : "0x1611c7d51",
+  "crashed" : false,
+  "native_thread_id" : "0x70000935a000",
+  "thread_info_addr" : "0x7fad24880000",
+  "thread_name" : "Thread Pool Worker",
+  "ctx" : {
+    "IP" : "0x7fff731ea86a",
+    "SP" : "0x700009358378",
+    "BP" : "0x700009358400"
+ },
+  "managed_frames" : [
+ {
+    "native_address" : "unregistered"
+  }
+,
+ {
+    "is_managed" : "true",
+    "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+    "token" : "0x6003488",
+    "native_offset" : "0x0",
+    "filename" : "mscorlib.dll",
+    "sizeofimage" : "0x45e000",
+    "timestamp" : "0xc89ebd33",
+    "il_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "true",
+    "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+    "token" : "0x00000",
+    "native_offset" : "0x0",
+    "filename" : "mscorlib.dll",
+    "sizeofimage" : "0x45e000",
+    "timestamp" : "0xc89ebd33",
+    "il_offset" : "0xffffffff"
+  }
+
+ ],
+"unmanaged_frames" : [
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+
+]
+},
+{
+"is_managed" : false,
+"offset_free_hash" : "0x0",
+"offset_rich_hash" : "0x0",
+"crashed" : false,
+"native_thread_id" : "0x700009157000",
+"thread_info_addr" : "0x7fad2501a200",
+"thread_name" : "tid_4c0f",
+"ctx" : {
+  "IP" : "0x7fff731ea86a",
+  "SP" : "0x700009156cc8",
+  "BP" : "0x700009156d50"
+},
+"unmanaged_frames" : [
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+
+]
+},
+{
+"is_managed" : false,
+"offset_free_hash" : "0x0",
+"offset_rich_hash" : "0x0",
+"crashed" : false,
+"native_thread_id" : "0x700008f54000",
+"thread_info_addr" : "0x7fad2501aa00",
+"thread_name" : "Thread Pool Worker",
+"ctx" : {
+  "IP" : "0x7fff731e727e",
+  "SP" : "0x700008f53d98",
+  "BP" : "0x700008f53e50"
+},
+"unmanaged_frames" : [
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+
+]
+},
+{
+"is_managed" : false,
+"offset_free_hash" : "0x0",
+"offset_rich_hash" : "0x0",
+"crashed" : false,
+"native_thread_id" : "0x700008d51000",
+"thread_info_addr" : "0x7fad2295ea00",
+"thread_name" : "Thread Pool Worker",
+"ctx" : {
+  "IP" : "0x7fff731e727e",
+  "SP" : "0x700008d50d98",
+  "BP" : "0x700008d50e50"
+},
+"unmanaged_frames" : [
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+
+]
+},
+{
+"is_managed" : false,
+"offset_free_hash" : "0x0",
+"offset_rich_hash" : "0x0",
+"crashed" : false,
+"native_thread_id" : "0x700008b4e000",
+"thread_info_addr" : "0x7fad2382f000",
+"thread_name" : "Thread Pool I/O Selector",
+"ctx" : {
+  "IP" : "0x7fff731ee61a",
+  "SP" : "0x700008b4db68",
+  "BP" : "0x700008b4dd20"
+},
+"unmanaged_frames" : [
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "native_address" : "unregistered"
+ }
+
+]
+},
+{
+"is_managed" : true,
+"offset_free_hash" : "0x9123a18d3",
+"offset_rich_hash" : "0x9123a1a42",
+"crashed" : false,
+"native_thread_id" : "0x700009d69000",
+"thread_info_addr" : "0x7fad25816e00",
+"thread_name" : "Timer-Scheduler",
+"ctx" : {
+  "IP" : "0x7fff731ea86a",
+  "SP" : "0x700009d67a88",
+  "BP" : "0x700009d67b10"
+},
+"managed_frames" : [
+{
+  "native_address" : "unregistered"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x00000",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0xffffffff"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60034fa",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00044"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60034e6",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00014"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60034e5",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00000"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60034e0",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00019"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60034e3",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00000"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x600359b",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00048"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60033c4",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00014"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x6003358",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00071"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x6003357",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00000"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x6003356",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x0002b"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x60033c6",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0x00008"
+ }
+,
+{
+  "is_managed" : "true",
+  "guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+  "token" : "0x00000",
+  "native_offset" : "0x0",
+  "filename" : "mscorlib.dll",
+  "sizeofimage" : "0x45e000",
+  "timestamp" : "0xc89ebd33",
+  "il_offset" : "0xffffffff"
+ }
+
+],
+"unmanaged_frames" : [
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+
+]
+},
+{
+"is_managed" : false,
+"offset_free_hash" : "0x0",
+"offset_rich_hash" : "0x0",
+"crashed" : false,
+"native_thread_id" : "0x700008642000",
+"thread_info_addr" : "0x7fad22820200",
+"thread_name" : "Debugger agent",
+"ctx" : {
+"IP" : "0x109223eb1",
+"SP" : "0x700008641ad0",
+"BP" : "0x700008641e50"
+},
+"unmanaged_frames" : [
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+
+]
+},
+{
+"is_managed" : true,
+"offset_free_hash" : "0x641ac1401",
+"offset_rich_hash" : "0x641ac1518",
+"crashed" : false,
+"native_thread_id" : "0x70000894b000",
+"thread_info_addr" : "0x7fad22b7dc00",
+"thread_name" : "tid_5303",
+"ctx" : {
+"IP" : "0x7fff731ea86a",
+"SP" : "0x700008949618",
+"BP" : "0x7000089496a0"
+},
+"managed_frames" : [
+{
+"native_address" : "unregistered"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x00000",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0xffffffff"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x60033ea",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0x00019"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "BBD0A9D3-A0D3-4909-9BE0-0550C37EBFB4",
+"token" : "0x600001a",
+"native_offset" : "0x0",
+"filename" : "Mono.WebServer2.dll",
+"sizeofimage" : "0x1e000",
+"timestamp" : "0x0",
+"il_offset" : "0x00048"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x60033c4",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0x00014"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x6003358",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0x00071"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x6003357",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0x00000"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x6003356",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0x0002b"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x60033c6",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0x00008"
+}
+,
+{
+"is_managed" : "true",
+"guid" : "A2BFEEC6-715C-4FDF-A897-2C2780C54EBA",
+"token" : "0x00000",
+"native_offset" : "0x0",
+"filename" : "mscorlib.dll",
+"sizeofimage" : "0x45e000",
+"timestamp" : "0xc89ebd33",
+"il_offset" : "0xffffffff"
+}
+
+],
+"unmanaged_frames" : [
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+,
+{
+"native_address" : "unregistered"
+}
+
+]
+}
+]
+}

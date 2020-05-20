@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wired_Brain_Coffee.Views.RegistrationPage" AutomationId="Registration Page">
+    <ContentPage.Content>
+   
+        <StackLayout  Padding="5">
+               <Image Source="logo.png" WidthRequest="200"/>
+
+           <Label Text="{Binding ErrorText}" AutomationId="errorText" TextColor="Red"/>
+     
+      <Entry Placeholder="First Name" Text="{Binding FirstName}" AutomationId="firstName"></Entry>  
+      <Entry Placeholder="Last Name" Text="{Binding LastName}" AutomationId="lastName"></Entry>  
+      <Entry Placeholder="Email" Text="{Binding EmailAddress}" AutomationId="emailAddress"></Entry>  
+      <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" AutomationId="password"></Entry>  
+    
+      <Button Text="Sign Up" Command="{Binding SignupCommand}" AutomationId="signUpButton"></Button>  
+  </StackLayout> 
+    </ContentPage.Content>
+</ContentPage>
