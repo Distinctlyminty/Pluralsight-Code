@@ -1,2 +1,0 @@
-# Pluralsight
-Pluralsight Code
