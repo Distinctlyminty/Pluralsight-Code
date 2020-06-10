@@ -1,0 +1,37 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  Create a Wordpress installation on the LAMP stack using an EC2 instance
+Resources:
+  WebServerSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: >-
+        Enable HTTP access via port 80  + SSH access
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '80'
+          ToPort: '80'
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
+          CidrIp: 0.0.0.0/0
+  WebServer:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+        ImageId: 'ami-01419b804382064e4'
+        InstanceType: 't2.small'
+        SecurityGroups:
+          - !Ref WebServerSecurityGroup
+        KeyName: 'li.CloudFormation'
+    Metadata:
+      Instance:
+        Description: "This server hosts the WiredBrain Coffee Blog"
+  IPAddress:
+    Type: 'AWS::EC2::EIP'
+  IPAssoc:
+    Type: 'AWS::EC2::EIPAssociation'
+    Properties:
+      InstanceId: !Ref WebServer
+      EIP: !Ref IPAddress
+   
