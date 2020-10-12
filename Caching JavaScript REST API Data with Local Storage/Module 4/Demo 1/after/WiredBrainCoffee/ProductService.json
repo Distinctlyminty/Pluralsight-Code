@@ -1,0 +1,29 @@
+{
+    "ProductsList": [
+        {
+            "Id": 1,
+            "Name": "Columbian Black",
+            "Description": "Rich dark and aromatic coffee",
+            "UnitPrice": 4.95
+        },
+        {
+            "Id": 2,
+            "Name": "Peruvian Gold",
+            "Description": "A light and energetic blend with subtle chocolaty flavours",
+            "UnitPrice": 6.00
+        },
+        {
+            "Id": 3,
+            "Name": "Italian Sunshine",
+            "Description": "Classical Italian coffee with rich floral notes",
+            "UnitPrice": 3.40
+        },
+{
+            "Id": 4,
+            "Name": "Madagascar Delight",
+            "Description": "Rich, bold and perfect for the morning",
+            "UnitPrice": 3.40
+        }
+
+    ]
+}
