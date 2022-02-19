@@ -1,0 +1,1 @@
+﻿Before using this sample, be sure to replace the contents of the appsettings.json file with your own credentials

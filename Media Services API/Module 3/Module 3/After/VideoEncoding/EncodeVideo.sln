@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeVideo", "EncodeVideo.csproj", "{20F3C0E3-C326-441F-BA85-C974F80C50BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F3C0E3-C326-441F-BA85-C974F80C50BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F3C0E3-C326-441F-BA85-C974F80C50BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F3C0E3-C326-441F-BA85-C974F80C50BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F3C0E3-C326-441F-BA85-C974F80C50BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F14AD384-51B4-4437-91AC-AE27C923E8F2}
+	EndGlobalSection
+EndGlobal

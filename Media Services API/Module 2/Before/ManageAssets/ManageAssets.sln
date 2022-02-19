@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingMediaAssets", "ManagingMediaAssets\ManagingMediaAssets.csproj", "{AB0CAEDB-331E-48FE-8E23-64FFD62AA718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB0CAEDB-331E-48FE-8E23-64FFD62AA718}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{AB0CAEDB-331E-48FE-8E23-64FFD62AA718}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{AB0CAEDB-331E-48FE-8E23-64FFD62AA718}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{AB0CAEDB-331E-48FE-8E23-64FFD62AA718}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

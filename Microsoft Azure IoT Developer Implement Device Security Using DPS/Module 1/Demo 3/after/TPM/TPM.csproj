@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Simulator\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Microsoft.Azure.Devices" Version="1.29.0" />
+    <PackageReference Include="Microsoft.Azure.Devices.Client" Version="1.34.0" />
+    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Transport.Http" Version="1.12.3" />
+    <PackageReference Include="Microsoft.Azure.Devices.Shared" Version="1.27.0" />
+    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Security.Tpm" Version="1.12.3" />
+    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Client" Version="1.16.3" />
+    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Service" Version="1.16.3" />
+    <PackageReference Include="Microsoft.Azure.Devices.Provisioning.Transport.Amqp" Version="1.13.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Simulator\TpmSimulator\Simulator.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Simulator\TpmSimulator\Tpm.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
